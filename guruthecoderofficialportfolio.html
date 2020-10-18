@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio OFFICIAL - GuruTheCoder</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f1f1f1;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Main content of the portfolio website */
+        .main {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1 {
+            /* font-size: 50px; */
+            font-size:4vw;
+            word-break: break-all;
+        }
+
+        .row {
+            margin: 8px -16px;
+        }
+
+        .row,
+        .row>.column {
+            padding: 8px;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+        }
+
+        /* Creating 4 columns which are equal that float next to each other */
+        .row:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+
+        /* Clear floats after rows */
+        /* Content */
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+
+        /* Take up 2 columns instead of 4 */
+        @media screen and (max-width:900px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width:600px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        img {
+            height: 218px;
+            width: 218px;
+        }
+
+        .huge-img {
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>GuruTheCoder</h1>
+    <hr>
+    <h2>My portfolio</h2>
+
+    <!-- Portfolio gallery grid-->
+    <div class="main">
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src="computer image.jpg" alt="Computer image" style='width:100%'>
+                    <h3>My work</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum</p>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="programmer image.jpg" alt="Programmer image" style='width:100%'>
+                    <h3>My work</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum</p>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <img src="mountain image.jpg" alt="Mountain image" style='width:100%'>
+                    <h3>My work</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum</p>
+
+                </div>
+            </div>
+
+
+            <div class="column">
+                <div class="content">
+                    <img src="django image.png" alt="Django blog" style='width:100%'>
+                    <h3>My work</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum</p>
+
+                </div>
+            </div>
+            <!-- End grid -->
+        </div>
+
+        <div class="content">
+            <img class='huge-img' src="electrician image.png" alt="Electrician" style='width:100%'>
+            <h3>Some other work</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        </div>
+        <!-- Ending main -->
+    </div>
+
+</body>
+
+</html>
